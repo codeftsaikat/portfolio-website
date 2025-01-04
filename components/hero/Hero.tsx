@@ -5,6 +5,7 @@ import { Spotlight } from "../ui/Spotlight";
 import { TextGenerateEffect } from "../ui/TextGenerateEffect";
 import MagicButton from "../ui/MagicButton";
 import Link from "next/link";
+import { LocateIcon } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -38,7 +39,12 @@ const Hero = () => {
             Hi, I&apos;m Saikat, A Full-Stack Developer
           </p>
           <Link href={"#about"}>
-            <MagicButton title="Hey" />
+            <MagicButton
+              icon={<LocateIcon />}
+              position="left"
+              otherClasses="flex gap-2"
+              title="Hey Saikat D."
+            />
           </Link>
         </div>
       </div>
