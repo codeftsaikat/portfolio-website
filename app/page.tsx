@@ -1,6 +1,7 @@
 "use client";
 import Grid from "@/components/grid/Grid";
 import Hero from "@/components/hero/Hero";
+import RecentProject from "@/components/recent-project/RecentProject";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { HomeIcon } from "lucide-react";
 
@@ -13,6 +14,7 @@ export default function Home() {
         />
         <Hero />
         <Grid />
+        <RecentProject />
       </div>
     </main>
   );
