@@ -3,7 +3,6 @@ import Clients from "@/components/clients/Clients";
 import Experience from "@/components/experience/Experience";
 import Grid from "@/components/grid/Grid";
 import Hero from "@/components/hero/Hero";
-import MyApproach from "@/components/my-approach/MyApproach";
 import RecentProject from "@/components/recent-project/RecentProject";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data/data";
@@ -18,7 +17,6 @@ export default function Home() {
         <RecentProject />
         <Clients />
         <Experience />
-        <MyApproach />
       </div>
     </main>
   );
